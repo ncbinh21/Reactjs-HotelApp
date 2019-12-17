@@ -1,0 +1,48 @@
+#title {
+  width: 50%;
+}
+.room-create {
+  margin-bottom: 50px;
+}
+.room-image {
+  height: 100px;
+  background-color: #2f3b92fa
+}
+.room-image-platinum{
+  background-color:red
+}
+
+.room-image-diamond{
+  background-color: #ce19c8cf
+}
+
+.room-image-gold{
+  background-color: #621daffa
+}
+
+.room-image-silver{
+  background-color: #42908cfa
+}
+
+.room-image-bronze{
+  background-color: #2f3b92fa
+}
+
+
+.room-title, .room-detail, .room-price, .room-size, .room-type {
+  text-align: center
+}
+.room-price {
+  font-weight: bold
+}
+.col-md-3 {
+  margin-bottom: 20px;
+}
+
+.room-edit,  .room-delete{
+  margin-right: 5px;
+}
+
+.room-create-link, a button {
+  color: white;
+}

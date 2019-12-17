@@ -1,0 +1,37 @@
+.popup {  
+    position: fixed;  
+    width: 100%;  
+    height: 100%;  
+    top: 0;  
+    left: 0;  
+    right: 0;  
+    bottom: 0;  
+    margin: auto;  
+    background-color: rgba(0,0,0, 0.5);  
+    z-index: 200;
+}  
+.popup_inner {  
+    position: absolute;  
+    left: 25%;  
+    right: 25%;  
+    top: 25%;  
+    bottom: 25%;  
+    margin: auto;  
+    border-radius: 20px;  
+    background: white;  
+}
+.col-md-3 {
+    z-index: 100;
+}
+.close-popup {
+    color: #777;
+    font: 14px/100% arial, sans-serif;
+    position: absolute;
+    right: 30px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #fff;
+    top: 40px;
+  }
+  .close-popup:after {
+    content: '✖'; /* UTF-8 symbol */
+  }

@@ -1,0 +1,29 @@
+.input-group {
+    margin-bottom: 10px;
+}
+.input-group-text {
+    background-color:#82127961;
+}
+.input-file {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}   
+.input-file + label {
+	cursor: pointer; /* "hand" cursor */
+}
+.input-file + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    display: inline-block;
+}
+
+.input-file:focus + label,
+.input-file + label:hover {
+    background-color: red;
+}
